@@ -1,0 +1,8 @@
+:has(>.panel-footer>div>div>.yes)>.panel-body,
+:has(>.panel-footer>div>div>.yes)>.list-group {
+    display: none;
+}
+
+.task-card {
+    margin-bottom: 0;
+}

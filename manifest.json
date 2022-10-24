@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ALX intranet task auto collapse",
+    "description": "Will automatically collapse done task cards in the ALX intranet",
+    "version": "0.0.1",
+    "action": {},
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
